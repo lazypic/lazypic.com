@@ -1,0 +1,17 @@
+/* styles.css */
+
+a {
+	color: teal;
+}
+
+a:visited {
+	color: teal;
+}
+
+a:hover {
+	color: teal;
+}
+
+a:active {
+	color: teal;
+}
