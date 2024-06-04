@@ -1,3 +1,6 @@
 # lazypic.com
 
-/usr/local/www/nginx
+
+## Data
+
+/usr/local/www/apache24/data
