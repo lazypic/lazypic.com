@@ -1,0 +1,22 @@
+digraph Architecture {
+	labelloc="t"
+	label="Conoti Architecture"
+	graph [bgcolor=black ranksep=2];
+	node [shape=box, fontcolor=white, color=white, fontsize=16];
+	edge [fontcolor=white, color=white];
+	Conoti -> Infra;
+	Users -> Conoti;
+	Groups -> Conoti;
+	Project -> Conoti;
+	OpenPipelineIO -> Project;
+	Project -> OpenPipelineIO;
+	Dotori -> OpenPipelineIO;
+	OpenPipelineIO -> Dotori;
+	Dotori -> Project;
+	Partners -> Conoti;
+	Proxy -> Conoti;
+	CDN -> Conoti;
+	Solutions -> Conoti;
+	API -> Solutions;
+	Solutions -> API;
+}
